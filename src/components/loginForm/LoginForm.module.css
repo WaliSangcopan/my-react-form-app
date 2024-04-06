@@ -1,0 +1,62 @@
+.formContainer {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh;
+  background-color: #2e3141; /* Dark blue background */
+}
+
+.form {
+  width: 300px;
+  padding: 20px;
+  background-color: #3b3f58; /* Darker blue background */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.formLabel {
+  color: #ff758c; /* Pink color for labels */
+  margin-bottom: 0.5rem;
+}
+
+.formField {
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ff758c; /* Pink underline */
+  background-color: transparent; /* Transparent background */
+  color: #fff; /* White text color */
+  transition: border-color 0.3s ease;
+}
+
+.formField:focus {
+  border-color: #d57eeb; /* Light purple color on focus */
+}
+
+.formFieldError {
+  color: #ff758c; /* Pink color for error message */
+}
+
+.formActions {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.formSubmitBtn {
+  padding: 0.5rem 0.7rem;
+  background-color: #ff758c; /* Pink color for button background */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formSubmitBtn:hover {
+  background-color: #ff5e92; /* Lighter pink color on hover */
+}
